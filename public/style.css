@@ -13,6 +13,7 @@
 /* #top-contact-bar */
 #top-contact-bar1 {
 	font-size: 1.2rem;
+	margin-bottom: -1px;
 }
 
 #top-contact-bar1 a:link {
@@ -38,6 +39,7 @@
 /* #top-contact-bar */
 #top-contact-bar2 {
 	font-size: 1.2rem;
+	margin-bottom: -1px;
 }
 
 #top-contact-bar2 a:link {
@@ -59,6 +61,8 @@
 /* #top-contact-bar */
 #top-contact-bar3 {
 	font-size: 1.2rem;
+	margin-top: -1px;
+	margin-bottom: -1px;
 }
 
 #top-contact-bar3 a:link {
@@ -80,6 +84,7 @@
 /* #top-contact-bar */
 #top-contact-bar4 {
 	font-size: 1.2rem;
+	margin-bottom: -1px;
 }
 
 #top-contact-bar4 a:link {
