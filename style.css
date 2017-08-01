@@ -1,0 +1,130 @@
+/* Font */
+.goudy-medieval {
+	font-family: 'Goudy Medieval', Arial, sans-serif;
+}
+.goudy {
+	font-family: 'Goudy Bookletter 1911', serif;
+}
+/*--- Top down CSS ---*/
+.row {
+	margin-bottom: 0px;
+}
+
+/* #top-contact-bar */
+#top-contact-bar1 {
+	font-size: 1.2rem;
+}
+
+#top-contact-bar1 a:link {
+	color: #ffd740;
+}
+
+#top-contact-bar1 a:visited {
+	color: #ffd740;
+}
+
+#top-contact-bar1 a:hover {
+	color: white;
+}
+
+#top-contact-bar1 a:active {
+	color: #ffd740;
+}
+.social-link {
+	padding-left: .2rem;
+	padding-right: .2rem;
+}
+
+/* #top-contact-bar */
+#top-contact-bar2 {
+	font-size: 1.2rem;
+}
+
+#top-contact-bar2 a:link {
+	color: #c9b55e;
+}
+
+#top-contact-bar2 a:visited {
+	color: #c9b55e;
+}
+
+#top-contact-bar2 a:hover {
+	color: white;
+}
+
+#top-contact-bar2 a:active {
+	color: #c9b55e;
+}
+
+/* #top-contact-bar */
+#top-contact-bar3 {
+	font-size: 1.2rem;
+}
+
+#top-contact-bar3 a:link {
+	color: #ffd740;
+}
+
+#top-contact-bar3 a:visited {
+	color: #ffd740;
+}
+
+#top-contact-bar3 a:hover {
+	color: white;
+}
+
+#top-contact-bar3 a:active {
+	color: #ffd740;
+}
+
+/* #top-contact-bar */
+#top-contact-bar4 {
+	font-size: 1.2rem;
+}
+
+#top-contact-bar4 a:link {
+	color: #c9b55e;
+}
+
+#top-contact-bar4 a:visited {
+	color: #c9b55e;
+}
+
+#top-contact-bar4 a:hover {
+	color: white;
+}
+
+#top-contact-bar4 a:active {
+	color: #c9b55e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.social-link {
+	/*margin-left: .5rem;
+	margin-right: .5rem;*/
+}
+.phone-button {
+	
+}
+
+@media screen and (max-width: 600px) {
+	.phone {
+		
+	}
+	.phone-button {
+		
+	}
+	.phone-button:hover {
+		
+	}
+}
