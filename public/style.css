@@ -10,6 +10,12 @@
 	margin-bottom: 0px;
 }
 
+@media screen and (max-width: 670px) {
+	#top-text {
+		width: 95%;
+	}
+}
+
 /* #top-contact-bar */
 #top-contact-bar1 {
 	font-size: 1.2rem;
