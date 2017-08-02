@@ -1,141 +1,66 @@
 /* Font */
-.goudy-medieval {
-	font-family: 'Goudy Medieval', Arial, sans-serif;
+@font-face {
+  font-family: 'Goudy Medieval';
+  src: url('../fonts/GOUDY.TTF');
 }
-.goudy {
+.goudym {
+	font-family: 'Goudy Medieval', Arial, sans-serif;
+	letter-spacing: 2px;
+}
+.goudyl {
 	font-family: 'Goudy Bookletter 1911', serif;
 }
-/*--- Top down CSS ---*/
+/* Resets */
 .row {
 	margin-bottom: 0px;
 }
 
-@media screen and (max-width: 670px) {
-	#top-text {
-		width: 95%;
+/*--- Top down CSS ---*/
+/* nav */
+@media screen and (max-width: 415px) {
+	nav .brand-logo {
+		font-size: 1.6em;
+		margin-left: -.5rem;
+	}
+	nav .button-collapse {
+		margin-right: 5px;
 	}
 }
 
-/* #top-contact-bar */
-#top-contact-bar1 {
-	font-size: 1.2rem;
-	margin-bottom: -1px;
-}
 
-#top-contact-bar1 a:link {
-	color: #ffd740;
-}
-
-#top-contact-bar1 a:visited {
-	color: #ffd740;
-}
-
-#top-contact-bar1 a:hover {
-	color: white;
-}
-
-#top-contact-bar1 a:active {
-	color: #ffd740;
-}
-.social-link {
-	padding-left: .2rem;
-	padding-right: .2rem;
-}
-
-/* #top-contact-bar */
-#top-contact-bar2 {
-	font-size: 1.2rem;
-	margin-bottom: -1px;
-}
-
-#top-contact-bar2 a:link {
-	color: #c9b55e;
-}
-
-#top-contact-bar2 a:visited {
-	color: #c9b55e;
-}
-
-#top-contact-bar2 a:hover {
-	color: white;
-}
-
-#top-contact-bar2 a:active {
-	color: #c9b55e;
-}
-
-/* #top-contact-bar */
-#top-contact-bar3 {
-	font-size: 1.2rem;
+/* #contact-bar */
+#contact-bar {
+	font-size: 1.35rem;
 	margin-top: -1px;
 	margin-bottom: -1px;
 }
 
-#top-contact-bar3 a:link {
+#contact-bar a:link {
 	color: #ffd740;
 }
 
-#top-contact-bar3 a:visited {
+#contact-bar a:visited {
 	color: #ffd740;
 }
 
-#top-contact-bar3 a:hover {
+#contact-bar a:hover {
 	color: white;
 }
 
-#top-contact-bar3 a:active {
+#contact-bar a:active {
 	color: #ffd740;
 }
 
-/* #top-contact-bar */
-#top-contact-bar4 {
-	font-size: 1.2rem;
-	margin-bottom: -1px;
-}
-
-#top-contact-bar4 a:link {
-	color: #c9b55e;
-}
-
-#top-contact-bar4 a:visited {
-	color: #c9b55e;
-}
-
-#top-contact-bar4 a:hover {
-	color: white;
-}
-
-#top-contact-bar4 a:active {
-	color: #c9b55e;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.social-link {
-	/*margin-left: .5rem;
-	margin-right: .5rem;*/
-}
-.phone-button {
-	
-}
-
-@media screen and (max-width: 600px) {
-	.phone {
-		
+@media screen and (max-width: 700px) {
+	#top-text {
+		width: 95%;
 	}
-	.phone-button {
-		
+	.social-link {
+		margin-left: .5rem;
 	}
-	.phone-button:hover {
-		
+}
+@media screen and (min-width: 701px) {
+	.social-link {
+		margin-left: 1rem;
 	}
 }
