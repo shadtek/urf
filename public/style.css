@@ -17,6 +17,9 @@
 
 /*--- Top down CSS ---*/
 /* nav */
+.dropdown-content {
+	min-width: 200px;
+}
 @media screen and (max-width: 415px) {
 	nav .brand-logo {
 		font-size: 1.6em;

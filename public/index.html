@@ -67,34 +67,72 @@
 				<!-- Desktop Nav -->
 				<ul class="right hide-on-med-and-down goudyl">
 					<li><a href="/" class="amber-text text-accent-2">Home</a></li>
-					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown1'>Faire Features</a></li>
-					<ul id='dropdown1' class='dropdown-content black lighten-5'>
-						<li><a class="waves-effect" href="#">Featured</a></li>
+					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown1'>Information</a></li>
+					<!-- <ul id='dropdown1' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">Map</a></li>
+						<li><a class="waves-effect" href="#">Featured Guests</a></li>
 						<li><a class="waves-effect" href="#">Entertainers</a></li>
 						<li><a class="waves-effect" href="#">Vendors</a></li>
-						<li><a class="waves-effect" href="#">Event Schedule</a></li>
+						<li><a class="waves-effect" href="#">Etertainment Schedule</a></li>
+						<li><a class="waves-effect" href="#" ">About Us</a></li>
+						<li><a class="waves-effect" href="#" ">Contact Us</a></li>
+					</ul> -->
+					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown2'>Tickets</a></li>
+					<!-- <ul id='dropdown2' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">Ticket Info</a></li>
+						<li><a class="waves-effect" href="#">Discounts</a></li>
+						<li><a class="waves-effect" href="#">General Admission</a></li>
+						<li><a class="waves-effect" href="#">Queen's Joust & Feast</a></li>
+						<li><a class="waves-effect" href="#">Family Pass</a></li>
+						<li><a class="waves-effect" ui-sref="products.portable-rotisseries">Education Excursions</a></li>
+					</ul> -->
+					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown3'>Forms</a></li>
+					<!-- <ul id='dropdown3' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">Vendors</a></li>
+						<li><a class="waves-effect" href="#">Guilds</a></li>
+						<li><a class="waves-effect" href="#">Entertainers</a></li>
+						<li><a class="waves-effect" href="#">Artisans</a></li>
+						<li><a class="waves-effect" href="#">Volunteers</a></li>
+					</ul> -->
+					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown4'>F.A.Q.</a></li>
+					<!-- <ul id='dropdown4' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">General FAQ</a></li>
+						<li><a class="waves-effect" href="#">Map</a></li>
+						<li><a class="waves-effect" href="#" ">Contact Us</a></li>
+					</ul> -->
+				</ul>
+				<a data-activates="slide-out" class="right button-collapse"><i class="material-icons amber-text text-accent-2">menu</i></a>
+			</div>	
+		</nav>
+		<ul id='dropdown1' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">Map</a></li>
+						<li><a class="waves-effect" href="#">Featured Guests</a></li>
+						<li><a class="waves-effect" href="#">Entertainers</a></li>
+						<li><a class="waves-effect" href="#">Vendors</a></li>
+						<li><a class="waves-effect" href="#">Entertainment Schedule</a></li>
+						<li><a class="waves-effect" href="#" ">About Us</a></li>
 						<li><a class="waves-effect" href="#" ">Contact Us</a></li>
 					</ul>
-					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown2'>Tickets</a></li>
-					<ul id='dropdown2' class='dropdown-content black lighten-5'>
+		<ul id='dropdown2' class='dropdown-content black lighten-5'>
 						<li><a class="waves-effect" href="#">Ticket Info</a></li>
+						<li><a class="waves-effect" href="#">Discounts</a></li>
 						<li><a class="waves-effect" href="#">General Admission</a></li>
 						<li><a class="waves-effect" href="#">Queen's Joust & Feast</a></li>
 						<li><a class="waves-effect" href="#">Family Pass</a></li>
 						<li><a class="waves-effect" ui-sref="products.portable-rotisseries">Education Excursions</a></li>
 					</ul>
-					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown3'>Forms</a></li>
-					<ul id='dropdown3' class='dropdown-content black lighten-5'>
-						<li><a class="waves-effect" href="#">Smokers</a></li>
-						<li><a class="waves-effect" href="#">Pits</a></li>
-						<li><a class="waves-effect" href="#">Grills</a></li>
-						<li><a class="waves-effect" href="#">Open Fire Pits</a></li>            
+		<ul id='dropdown3' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">Vendors</a></li>
+						<li><a class="waves-effect" href="#">Guilds</a></li>
+						<li><a class="waves-effect" href="#">Entertainers</a></li>
+						<li><a class="waves-effect" href="#">Artisans</a></li>
+						<li><a class="waves-effect" href="#">Volunteers</a></li>
 					</ul>
-					<li><a href="#" class="amber-text text-accent-2">FAQ</a></li>
-				</ul>
-				<a data-activates="slide-out" class="right button-collapse"><i class="material-icons amber-text text-accent-2">menu</i></a>
-			</div>	
-		</nav>
+					<ul id='dropdown4' class='dropdown-content black lighten-5'>
+						<li><a class="waves-effect" href="#">General FAQ</a></li>
+						<li><a class="waves-effect" href="#">Map</a></li>
+						<li><a class="waves-effect" href="#" ">Contact Us</a></li>
+					</ul>
 	</div>
 	<!-- Mobile Nav -->
 	<ul id="slide-out" class="side-nav black goudyl">
@@ -153,35 +191,34 @@
 	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
 	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
 	<!-- Frontend Scripts -->
-  <script>
-    $(document).ready(function(){
+	<script>
+		$(document).ready(function(){
 
-      // $(window).resize(function() {
-      //   if ($(window).width() > 768) {
-      //     $('.nav-wrapper').addClass('container');
-      //   } else {
-      //     $('.nav-wrapper').removeClass('container');
-      //   }
-      // });
+			// $(window).resize(function() {
+			//   if ($(window).width() > 768) {
+			//     $('.nav-wrapper').addClass('container');
+			//   } else {
+			//     $('.nav-wrapper').removeClass('container');
+			//   }
+			// });
 
-      $(".button-collapse").sideNav({
-        menuWidth: 200, // Default is 240
-        edge: 'left', // Choose the horizontal origin
-        closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-        draggable: true // Choose whether you can drag to open on touch screens
-      });
+			$(".button-collapse").sideNav({
+				menuWidth: 200, // Default is 240
+				edge: 'left', // Choose the horizontal origin
+				closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+				draggable: true // Choose whether you can drag to open on touch screens
+			});
 
-      $('.dropdown').dropdown({
-        inDuration: 300,
-        outDuration: 225,
-        constrain_width: true, // Does not change width of dropdown to that of the activator
-        hover: true, // Activate on hover
-        gutter: 0, // Spacing from edge
-        belowOrigin: true, // Displays dropdown below the button
-        alignment: 'left' // Displays dropdown with edge aligned to the left of button
-      });
-
-    });
-  </script>
+			$('.dropdown').dropdown({
+				inDuration: 300,
+				outDuration: 225,
+				constrain_width: true, // Does not change width of dropdown to that of the activator
+				hover: true, // Activate on hover
+				gutter: 0, // Spacing from edge
+				belowOrigin: true, // Displays dropdown below the button
+				alignment: 'left' // Displays dropdown with edge aligned to the left of button
+			});
+		});
+	</script>
 </body>
 </html>
