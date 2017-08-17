@@ -59,7 +59,6 @@
 
 </head>
 <body>
-	
 	<div class="navbar-fixed">
 		<nav class="black lighten-5">
 			<div class="nav-wrapper container">
@@ -205,14 +204,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Carousel -->
-	<!-- <div class="carousel carousel-slider">
-		<a class="carousel-item" href="#two!"><img src="img/robbie.jpg"></a>
-		<a class="carousel-item" href="#three!"><img src="http://i.imgur.com/kr5NYdO.jpg"></a>
-		<a class="carousel-item" href="#three!"><img src="img/feast2.jpg"></a>
-		<a class="carousel-item" href="#three!"><img src="img/collage-only-crop2.png"></a>
-		<a class="carousel-item" href="#three!"><img src="acl-action.jpg"></a>
-	</div> -->
+
 	<div class="slider">
 		<ul class="slides">
 			<li><img src="img/collage-only.png"></li>
@@ -223,19 +215,29 @@
 			<li><img src="img/stary-olsa.jpg"></li>
 		</ul>
 	</div>
-
-	<div class="container">
+	<section class="container">
+		
+	</section>
+	
+	<section id="sponsors" class="container">
 		<h4 class="goudym center-align">Proudly Sponsored by:</h4>
-	</div>
+		<p class="center-align" href="http://www.mountainpointmedicalcenter.com/" target="_blank">
+			<img src="http://i.imgur.com/N5iDBuK.jpg" class="img-responsive" alt="IASIS Healthcare Mountain Point Medical Center">
+		</p>
+		<p class="center-align" href="http://sorensonlegacyfoundation.org/" target="_blank">
+			<img src="http://sorensonlegacyfoundation.org/public/images/logo_banner.gif" class="img-responsive" alt="Sorenson Legacy Foundation">
+		</p>
+		<p class="center-align" href="http://www.uvu.edu/" target="_blank">
+			<img src="img/UVU_logo.png" class="img-responsive" alt="UVU">
+		</p>
+		<p class="center-align" href="https://www.alphagraphics.com/" target="_blank">
+			<img src="https://www.alphagraphics.com/content/dam/ag-www/global/logo/AG-logo-01.png" class="img-responsive" alt="alphagraphics">
+		</p>
+	</section>
 	
 
 
-	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
-	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
-	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
-	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
-	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
-	<img class="responsive-img" src="http://i.imgur.com/91dORjU.jpg" crossorigin="anonymous">
+
 	<!-- Frontend Scripts -->
 	<script>
 		$(document).ready(function(){
@@ -244,6 +246,14 @@
 				interval: 4000,
 				height: 500
 			});
+
+			$(window).resize(function() {
+        if ($(window).width() > 1440) {
+          $('.slider').addClass('container');
+        } else {
+          $('.slider').removeClass('container');
+        }
+      });
 
 			$(".button-collapse").sideNav({
 				menuWidth: 200, // Default is 240
