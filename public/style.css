@@ -77,19 +77,21 @@ html,body{
 }
 
 /* .slider */
-.overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.5);
-	z-index: 8;
+#slider-parent {
+	background: url('img/bricks.jpg') fixed center/cover no-repeat;
+	padding-bottom: 2rem;
 }
+
 .slider .slides li img {
-	/* background-position: center; */
 	background-position-x: center;
 	background-position-y: top;
+}
+@media screen and (max-width: 600px) {
+	.slider .indicators .indicator-item {
+		height: .6rem;
+		width: .6rem;
+		margin: 0 .6rem;
+	}
 }
 
 /* #sponsors */
