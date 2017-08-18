@@ -49,7 +49,6 @@
 	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911'>
 	<!-- Icons -->
 	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
-	<link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<!-- Compiled and minified CSS -->
 	<link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	<!-- Custom Styles -->
@@ -67,9 +66,9 @@
 				<!-- Desktop Nav -->
 				<ul class="right hide-on-med-and-down goudyl">
 					<li><a href="/" class="amber-text text-accent-2">Home</a></li>
-					<li><a href="/" class="amber-text text-accent-2">Directions</a></li>
-					<li><a href="/" class="amber-text text-accent-2">Schedule</a></li>
-					<li><a class="dropdown amber-text text-accent-2" data-activates='dropdown1'>Information</a></li>
+					<li><a href="#" class="amber-text text-accent-2">Directions</a></li>
+					<li><a href="#" class="amber-text text-accent-2">Schedule</a></li>
+					<li><a href="#" class="dropdown amber-text text-accent-2" data-activates='dropdown1'>Information</a></li>
 					<ul id='dropdown1' class='dropdown-content black lighten-5'>
 						<li><a class="waves-effect" href="#">Map / Directions</a></li>
 						<li><a class="waves-effect" href="#">Featured Guests</a></li>
@@ -111,6 +110,8 @@
 	<ul id="slide-out" class="side-nav black goudyl amber-text text-accent-2">
 		<li><a href="/" class="goudym amber-text text-accent-2">#UtahRenFaire</a></li>
 		<li><a href="/" class="amber-text text-accent-2">Home</a></li>
+		<li><a href="#" class="amber-text text-accent-2">Directions</a></li>
+		<li><a href="#" class="amber-text text-accent-2">Schedule</a></li>
 		<li>
 			<ul class="collapsible" data-collapsible="accordion">
 				<li>
@@ -281,7 +282,7 @@
 			$('.dropdown').dropdown({
 				inDuration: 300,
 				outDuration: 225,
-				constrain_width: true, // Does not change width of dropdown to that of the activator
+				constrain_width: false, // Does not change width of dropdown to that of the activator
 				hover: true, // Activate on hover
 				gutter: 0, // Spacing from edge
 				belowOrigin: true, // Displays dropdown below the button

@@ -31,6 +31,9 @@ html,body{
 .dropdown-content {
 	min-width: 200px;
 }
+.side-nav li>a>i {
+	margin: 0 5px 0 0;
+}
 @media screen and (max-width: 415px) {
 	nav .brand-logo {
 		font-size: 1.6em;
