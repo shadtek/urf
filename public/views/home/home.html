@@ -32,30 +32,3 @@
 		<img src="img/UtahFineArts_logo.jpg" class="img-responsive" alt="Utah Valley Fine Arts">
 	</p>
 </section>
-<script>
-	$(document).ready(function(){
-
-		$('.slider').slider({
-			interval: 3000,
-			transition: 700,
-			height: 500
-		});
-
-		// works on load
-		if ($(window).width() > 1440) {
-			$('.slider').addClass('container');
-		} else {
-			$('.slider').removeClass('container');
-		}
-
-		// works after load
-		$(window).resize(function() {
-			if ($(window).width() > 1440) {
-				$('.slider').addClass('container');
-			} else {
-				$('.slider').removeClass('container');
-			}
-		});
-
-	});
-</script>
