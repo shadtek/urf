@@ -2,7 +2,7 @@ var app = angular.module('utahrenfaire', ['ui.router']);
 
 app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 
-	$urlRouterProvider.otherwise('/');
+	// $urlRouterProvider.otherwise('/');
 
 	$stateProvider
 		.state('home', {
@@ -10,15 +10,15 @@ app.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 			templateUrl: "views/home/home.html",
 			controller: 'homeCtrl'
 		})
-		.state('otherwise', {
-			url: '*path',
-			resolve: {
-				redirect: function($location) {
-					$location.path("/").replace()
-					console.log("redirecting...")
-				}
-			}
-		});
+		// .state('otherwise', {
+		// 	url: '*path',
+		// 	resolve: {
+		// 		redirect: function($location) {
+		// 			$location.path("/").replace()
+		// 			// console.log("redirecting...")
+		// 		}
+		// 	}
+		// });
 
 		$locationProvider.html5Mode(true);
 
